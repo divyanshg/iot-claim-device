@@ -5,7 +5,7 @@ import time
 import json
 import os
 
-BASE_URL = "192.168.1.4"
+BASE_URL = os.environ["BROKER_HOST"]
 
 CONFIG_FILE='config.json'
 client_config = None

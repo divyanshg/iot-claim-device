@@ -32,7 +32,7 @@ else:
 if client_config is None:
     print("No CONFIG data available.")
 
-mqtt_host = "192.168.1.4"
+mqtt_host = os.environ["BROKER_HOST"]
 
 CA_CERT=client_config["ca"]
 CERT_FILE=client_config["cert"]

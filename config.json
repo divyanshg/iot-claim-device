@@ -1,1 +1,1 @@
-{"claimCertId": "66093c6de28eac5a64ce7376", "clientId": "claim_66093c6de28eac5a64ce7376_6607d4b6c215c8d4ad99d77a", "key": "./certs/claim-key.pem", "cert": "./certs/claim-cert.crt", "ca": "./root-ca.crt"}
+{"claimCertId": "66093c6de28eac5a64ce7376", "clientId": "claim_66093c6de28eac5a64ce7376_6607d4b6c215c8d4ad99d77a", "key": "./certs/claim-private-key.pem", "cert": "./certs/claim-cert.crt", "ca": "./root-ca.crt"}
