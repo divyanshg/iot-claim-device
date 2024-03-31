@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "sudo apt update && sudo apt install ffmpeg && pip install paho-mqtt && python app.py"
+  },
+  "models": {
+    "alwaysai/mobilenet_ssd": 5
+  }
+}
